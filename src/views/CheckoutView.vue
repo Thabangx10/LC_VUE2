@@ -1,20 +1,19 @@
 <template>
-  <div class="home">
+  <div>
 
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import Home from '@/components/Home.vue'
+// Imports
 import NavBar from '@/components/NavBar.vue'
 import Footer from '@/components/Footer.vue'
-export default {
-  name: 'HomeView',
-  components: {
-    Home,
+  export default {
     NavBar,
     Footer
   }
-}
 </script>
+
+<style>
+
+</style>
